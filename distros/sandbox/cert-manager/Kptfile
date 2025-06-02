@@ -6,10 +6,4 @@ metadata:
     config.kubernetes.io/local-config: "true"
 info:
   description: certificate manager package to deploy cert-manager
-upstream:
-  type: git
-  git:
-    repo: https://github.com/nephio-project/catalog.git
-    directory: distros/sandbox/cert-manager
-    ref: main
-  updateStrategy: resource-merge
+repo: https://github.com/nephio-project/catalog.git
